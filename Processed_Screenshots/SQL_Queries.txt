@@ -1,0 +1,18 @@
+CREATE DATABASE employee_management;
+
+USE employee_management;
+
+CREATE TABLE employee;
+
+INSERT INTO employee (employee_id, employee_name, date_of_birth)
+VALUES
+(874, 'Rajesh Kumar', '1990-07-10'),
+(493, 'Priya Sharma', '1993-03-22'),
+(843, 'Amit Singh', '1985-11-30'),
+(844, 'Mehak Gupta', '1992-05-12'),
+(933, 'Ankit Patel', '1988-09-18'),
+(238, 'Nidhi Verma', '1995-02-08'),
+(304, 'Sachin Sharma', '1987-04-27'),
+(349, 'Divya Singh', '1991-08-15'),
+(393, 'Rohit Malhotra', '1989-06-20'),
+(373, 'Kavya Choudhary', '1994-01-05');
